@@ -16,7 +16,10 @@ export default function Team({ persons }: TeamProps) {
   console.log(persons);
 
   return (
-    <div className="flex mt-8 flex-col gap-10 justify-center items-center ">
+    <div
+      id="team"
+      className="flex mt-8 flex-col gap-10 justify-center items-center "
+    >
       <Heading heading={"Our Team"}></Heading>
       <Member details={persons[0]} />
       <Member details={persons[1]} />
