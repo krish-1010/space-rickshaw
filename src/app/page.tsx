@@ -49,8 +49,8 @@ export default function Home() {
       </div>
       <Team persons={TeamPersons} />
       <TheProblem />
-      <Introduction />
       <Missions />
+      <Introduction />
       <Products />
       <Competition />
       <RModel />
