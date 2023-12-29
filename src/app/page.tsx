@@ -40,8 +40,8 @@ export default function Home() {
 
   return (
     <main className="overflow-hidden">
-      <div className=" bg-[url('./images/1.jpg')] bg-gray-600 bg-cover bg-blend-overlay bg-center h-screen w-screen flex justify-center items-center">
-        {/* <div className="absolute w-[98.3vw] h-[100vh] backdrop-blur-sm mix-blend-darken"></div> */}
+      <div className=" bg-[url('./images/bg.webp')] bg-cover bg-blend-none bg-opacity-90 bg-center h-screen relative w-screen flex justify-center items-center">
+        <div className="absolute w-screen h-screen bg-gradient-to-t from-black    "></div>
         <div className="">
           <div className="flex flex-row max-sm:text-xl items-center justify-center">
             <h1 className="text-center relative max-sm:text-5xl z-10 text-7xl 2xl:text-9xl">
