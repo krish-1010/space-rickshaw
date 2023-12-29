@@ -6,6 +6,12 @@ import RModel from "./pages/RModel";
 import TheProblem from "./pages/TheProblem";
 import Products from "./pages/Products";
 import Timeline from "./pages/Timeline";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Space Rickshaw",
+  description: "Space Rickshaw by SpacekidzIndia",
+};
 
 export default function Home() {
   const TeamPersons = [
