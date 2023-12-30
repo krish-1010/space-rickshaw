@@ -29,7 +29,7 @@ const MissionCard = ({ missionTitle }: MissionProps) => {
         sizes="full"
         className="h-full rounded-2xl opacity-90"
       />
-      <div className="absolute bottom-10 left-5 z-50 text-white ">
+      <div className="absolute bottom-10 left-5 z-10 text-white ">
         {missionTitle}
       </div>
     </div>

@@ -31,7 +31,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex z-50 justify-between items-center w-full h-20 px-4 xl:pt-10 xl:pr-10 text-white bg-black fixed nav">
+    <div className="flex z-[999] justify-between items-center w-full h-20 px-4 xl:pt-10 xl:pr-10 text-white bg-black sticky nav">
       <div>
         {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
         <h1 className="text-5xl font-signature ml-2">
@@ -57,7 +57,7 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+        className="cursor-pointer pr-4 z-50 text-gray-500 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>

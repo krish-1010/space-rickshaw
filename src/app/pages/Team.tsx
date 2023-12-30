@@ -13,7 +13,7 @@ interface TeamProps {
 }
 
 export default function Team({ persons }: TeamProps) {
-  console.log(persons);
+  //console.log(persons);
 
   return (
     <div
