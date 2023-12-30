@@ -30,12 +30,12 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden ">
       <Navbar />
       <div
         className={`${raleway.className} font-Raleway font-semibold in bg-[url('./images/bg.webp')] bg-cover bg-blend-none bg-opacity-90 bg-center h-screen relative w-screen flex justify-center items-center`}
       >
-        <div className="absolute w-screen h-screen bg-gradient-to-t from-black    "></div>
+        <div className="absolute h-lvh md:w-screen md:h-screen bg-gradient-to-t from-black   "></div>
         <div className="">
           <div className="flex flex-row  items-center justify-center">
             <h1 className="text-center relative text-5xl md:text-5xl xl:text-6xl 2xl:text-7xl">

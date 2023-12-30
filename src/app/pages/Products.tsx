@@ -15,14 +15,14 @@ export default function Products() {
             sizes="full"
           />
         </div>
-        <div className="flex ml-10 mt-10 flex-col justify-between leading-normal w-full md:w-[60%]">
+        <div className="flex ml-10 mt-10 flex-col justify-between leading-normal w-[80%]  md:w-[60%]">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
             Our Platform Provides you with:
           </h5>
           <p className="mb-3 font-normal text-white mt-10">
             LEO Platform - Providing quick access to low earth orbit on an
             already proven platform our satellite buses Re-Entry Capsule
-            Platform - Providing access to unique and underserved Re-Entry and
+            Platform: Providing access to unique and underserved Re-Entry and
             Sample Return Market like never before for advanced customers with
             unique requirements for biological samples, material research, etc,.
             Lunar Platform - Our flagship platform providing quick access to
